@@ -262,6 +262,9 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
     align-items: center;
+/*     height: 370px;
+    width: 356px;
+    margin: 20px ; */
 }
 .services .serv-content .card:hover{
     background: #1872CF;
