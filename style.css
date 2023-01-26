@@ -32,7 +32,7 @@ html {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: #333;
+  color: #fff;
   font-size: 35px;
   font-weight: 500;
 }
@@ -48,7 +48,7 @@ html {
   display: inline-block;
 }
 .navbar .menu li a {
-  color: #333;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
@@ -63,12 +63,11 @@ html {
 /*  Home   inicio  */
 .home {
   display: flex;
-  /*    background: url(image/Banner-Cube-Car.png) no-repeat; */
-  background-color: #fff;
+  background: url(image/Banner-Cube-Car.png) no-repeat;
   width: 1920px;
   height: 1080px;
   background-size: cover;
-  color: #333;
+  color: #fff;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -76,7 +75,7 @@ html {
   margin: auto 0 auto 40px;
 }
 .home .home-content {
-  text-align: center;
+  text-align: left;
 }
 .home .home-content .text-1 {
   font-size: 40px;
@@ -96,6 +95,7 @@ input[type="range"] {
   -webkit-appearance: none;
   margin: 10px 0;
   width: 60%;
+  background-color: #040a0b;
 }
 input[type="range"]:focus {
   outline: none;
