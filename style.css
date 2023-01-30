@@ -13,7 +13,7 @@ html {
   padding: 0 80px;
   margin: auto;
 }
-/*  navbar   inicio*/
+/*  navbar   inicio*/ 
 .navbar {
   position: fixed;
   width: 100%;
@@ -63,7 +63,8 @@ html {
 /*  Home   inicio  */
 .home {
   display: flex;
-  background: url(image/Banner-Cube-Car.png) no-repeat;
+/*   background: url(image/Banner-Cube-Car.png) no-repeat; */
+background-color: #111;
   width: 1920px;
   height: 1080px;
   background-size: cover;
@@ -784,33 +785,103 @@ footer span a:hover {
     margin-top: 15px;
   }
 }
-@media (max-width: 690px) {
+
+
+
+@media screen and (max-width: 690px) {
+  .home .home-content .text-1 {
+    font-size: 20px;
+    color: #1872cf;
+  }
   .home .home-content .text-2 {
-    font-size: 30px;
+    font-size: 15px;
   }
   .home .home-content .text-3 {
-    font-size: 32px;
+    font-size: 18px;
+  }
+  .home .home-content .text-4 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-4 span {
+    color: #1872cf;
+    font-weight: 500;
   }
   .home .home-content a {
-    font-size: 20px;
+    font-size: 15px;
   }
   .services .serv-content .card {
     width: 100%;
   }
 }
-@media (max-width: 500px) {
-  .home .home-content .text-2 {
-    font-size: 20px;
+
+/* @media screen and (max-width:  768px) {
+  .home .home-content .text-1 {
+    font-size: 40px;
+    color: #1872cf;
   }
-  .home .home-content .text-3 {
-    font-size: 27px;
+  .home .home-content .text-2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3-days-span {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .home .home-content .text-4 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-4 span {
+    color: #1872cf;
+    font-weight: 500;
   }
 }
-@media (max-width: 1000px) {
-  .home .home-content .text-2 {
-    font-size: 30px;
+@media screen and (max-width: 992px) {
+  .home .home-content .text-1 {
+    font-size: 40px;
+    color: #1872cf;
   }
-  .home .home-content .text-3 {
-    font-size: 27px;
+  .home .home-content .text-2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3-days-span {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .home .home-content .text-4 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-4 span {
+    color: #1872cf;
+    font-weight: 500;
   }
 }
+@media screen and (max-width: 1200px) {
+  .home .home-content .text-1 {
+    font-size: 40px;
+    color: #1872cf;
+  }
+  .home .home-content .text-2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3-days-span {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .home .home-content .text-4 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-4 span {
+    color: #1872cf;
+    font-weight: 500;
+  }
+}
+ */
