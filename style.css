@@ -65,7 +65,7 @@ html {
   display: flex;
 /*   background: url(image/Banner-Cube-Car.png) no-repeat; */
 background-color: #111;
-  width: 1920px;
+  width: 100%;
   height: 1080px;
   background-size: cover;
   color: #fff;
@@ -96,7 +96,7 @@ input[type="range"] {
   -webkit-appearance: none;
   margin: 10px 0;
   width: 60%;
-  background-color: #040a0b;
+  background-color: #111;
 }
 input[type="range"]:focus {
   outline: none;
@@ -452,6 +452,7 @@ footer {
   content: "";
   position: absolute;
   height: 100%;
+  border-radius: 10px;
   top: 0;
   left: 0;
   background: #1872cf;
@@ -812,6 +813,79 @@ footer span a:hover {
   }
   .services .serv-content .card {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .home .home-content{
+    height: 50%;
+    text-align: center;
+  }
+  .home .home-content .text-1 {
+    font-size: 18px;
+    color: #1872cf;
+  }
+  .home .home-content .text-2 {
+    font-size: 12px;
+  }
+  .home .home-content .text-3 {
+    font-size: 11px;
+  }
+  .home .home-content .text-4 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-4 span {
+    color: #1872cf;
+    font-weight: 500;
+  }
+  .home .home-content a {
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+  }
+  section{
+    padding: 20px 0;
+  }
+
+  .video .video-content video{
+    -webkit-box-shadow: -05px 10px 14px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow:    -05px 10px 14px rgba(0, 0, 0, 0.45);
+    box-shadow:         -05px 10px 14px rgba(0, 0, 0, 0.45);
+  }
+
+  .about .about-content{
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about-content .left img{
+    width: 300px;
+    height: 250px;
+  }
+  .about .about-content .right .text{
+    font-size: 18px;
+  }
+  .about .about-content .left .text{
+    font-size: 16px;
+  }
+  .about .about-content .right a{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .skills .skills-content .column{
+    width: 100%;
+  }
+  .skills .skills-content .column .text{
+    font-size: 18px;
+  }
+  .skills .skills-content a{
+    width: 100%;
+    text-align: center;
+  }
+  .skills .skills-content .right span{
+    font-size: 16px;
   }
 }
 
