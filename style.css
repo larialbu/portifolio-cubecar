@@ -62,12 +62,11 @@ html {
 }
 /*  Home   inicio  */
 .home {
-  display: flex;
-/*   background: url(image/Banner-Cube-Car.png) no-repeat; */
-background-color: #111;
   width: 100%;
   height: 1080px;
-  background-size: cover;
+  display: flex;
+  background: url('image/arte-1.png') no-repeat right;
+  background-color: #111;
   color: #fff;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
@@ -817,19 +816,29 @@ footer span a:hover {
 }
 
 @media screen and (max-width: 450px){
+  .home{
+    background: url('image/arte-2.png') no-repeat bottom;
+    background-size: 400px;
+    background-color: #111;
+    height: 600px;
+  }
+  .home .max-width{
+    margin-top: 100px;
+    padding: 0;
+  }
   .home .home-content{
-    height: 50%;
+   
     text-align: center;
   }
   .home .home-content .text-1 {
-    font-size: 18px;
+    font-size: 24px;
     color: #1872cf;
   }
   .home .home-content .text-2 {
-    font-size: 12px;
+    font-size: 16px;
   }
   .home .home-content .text-3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .home .home-content .text-4 {
     font-size: 18px;
