@@ -878,6 +878,14 @@ footer span a:hover {
     padding: 20px 0;
   }
 
+  .video .title::before {
+    width: 320px;
+  }
+
+  .video .title::after {
+    width: 250px;
+  }
+
   .video .video-content video{
     -webkit-box-shadow: -05px 10px 14px rgba(0, 0, 0, 0.45);
     -moz-box-shadow:    -05px 10px 14px rgba(0, 0, 0, 0.45);
