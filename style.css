@@ -334,8 +334,19 @@ footer {
 
 /*  sessão video  */
 
+.video .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 300px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+
 .video .title::after {
-  content: "Quem somos";
+  content: "Conheça a nossa história";
 }
 
 .video .video-content video {
@@ -705,6 +716,15 @@ footer span a:hover {
 }
 
 /*  responsivo  */
+@media (max-width: 1366px) {
+  .home{
+    background: url('image/arte-2.png') no-repeat right;
+    background-size: 700px 500px;
+    background-color: #111;
+    height: 500px;
+  }
+}
+
 @media (max-width: 1300px) {
   .navbar .max-width {
     margin-left: 0;
